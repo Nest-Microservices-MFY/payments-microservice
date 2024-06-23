@@ -56,7 +56,6 @@ export class StripeService {
 
     let event: Stripe.Event;
 
-    // REAL
     const endpointSecret = envs.stripeEndpointSecret;
 
     try {
